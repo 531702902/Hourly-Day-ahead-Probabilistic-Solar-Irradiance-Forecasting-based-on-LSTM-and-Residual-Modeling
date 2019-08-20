@@ -41,8 +41,8 @@ def main():
     feature_1, label_1 = loaddata(filename_1)
     train_x, train_t = pre(feature_1, label_1)
 
-#    filename_2 = "data\pre-data/test_NREL_solar_data.csv"
-    filename_2=r"test.csv"
+#    filename_2 = "data\pre-data/validate_NREL_solar_data.csv"
+    filename_2=r"validate.csv"
     feature_2, label_2 = loaddata(filename_2)
     validate_x, validate_t = pre(feature_2, label_2)
 

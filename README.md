@@ -6,4 +6,4 @@ This project is mainly for others to reproduce the thesis work.
 wx_LSTM_train.py and wx_LSTM_test.py are used to build LSTM residuals.
 RenewResult.py is used to construct Laplacian and Gaussian prediction intervals with different confidence levels.
 
-LSTMTrainerror.csv and LSTMTesterror.csv are the primary data of the thesis work.Laplace and Gaussian confidence intervals for different confidence levels can be constructed using LSTMTrainerror.csv, LSTMTesterror.csv, and RenewResult.py.
+LSTMTrainerror.csv and LSTMTesterror.csv are the training set and test set error respectively.Laplace and Gaussian confidence intervals for different confidence levels can be constructed using LSTMTrainerror.csv, LSTMTesterror.csv, and RenewResult.py.
